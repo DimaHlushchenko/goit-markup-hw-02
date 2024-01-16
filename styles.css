@@ -1,82 +1,138 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    /* Основний шрифт */
+    color: #333;
+    /* Основний колір тексту */
+    line-height: 1.8;
+    /* Висота рядка */
+}
+
+header {
+    background-color: #ffffff;
+    /* Колір фону хедера */
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.address ul {
+    list-style: none;
+    padding: 20;
+    font-size: px;
+}
+
+.address li {
+    margin-bottom: 10px;
+}
+header .logo-web {
+    color: #4D5AE5;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+header .logo-studio {
+    color: #2E2F42;
+}
+
+main {
+    padding: 20px;
+}
+
+.section-main {
+    margin-bottom: 80px;
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    
 }
 
 h1,
 h2,
 h3 {
     font-family: 'Raleway', sans-serif;
-}
-nav {
-    background-color: #333;
-    color: white;
-    padding: 10px;
+    /* Шрифт для заголовків */
 }
 
-.logo-web {
-    color: white;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.link {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-}
-.section-main {
-    background-color: #f2f2f2;
-    text-align: center;
-    padding: 50px 0;
-}
-
-.section-team,
-.section-portfolio {
-    padding: 50px 0;
-}
 button {
-    background-color: #0066cc;
-    color: white;
+    background-color: #4285f4;
+    /* Колір кнопки */
+    color: #fff;
+    /* Колір тексту на кнопці */
     padding: 10px 20px;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-.section-portfolio ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+
+/* Стилі для секції Features */
+ul li {
+    margin-bottom: 20px;
 }
 
-.section-portfolio li {
-    text-align: center;
-    margin: 20px 0;
-}
-.team-cards {
-    text-align: center;
+/* Стилі для секції Our Team */
+.section-team {
+    background-color: #F4F4FD;
 }
 
 .team-cards img {
-    border-radius: 50%;
+    border-radius: %;
 }
-section {
-    margin-bottom: 30px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 30px;
+і
+/* Стилі для секції Our Portfolio */
+ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+/* Стилі для футера */
+footer {
+    background-color: #2E2F42;
+    /* Колір фону футера */
+    color: #fff;
+    /* Колір тексту у футері */
+    padding: 20px;
+}
+
+/* Стилі для лого у футері */
+footer .logo-web {
+    color: #4D5AE5;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+footer .logo-studio {
+    color: #fff;
+}
+
+/* Стилі для абзацу у футері */
+footer p {
+    margin-top: 10px;
 }
