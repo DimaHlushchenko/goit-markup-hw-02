@@ -54,22 +54,24 @@ nav ul {
 
 header .logo-web {
     color: #4D5AE5;
-    text-decoration: none;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    font-style: normal;
 }
 
 header .logo-studio {
     color: #2E2F42;
-    font-family: "Raleway";
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        font-family: "Raleway", sans-serif;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        font-style: normal;
 }
 
 main {
@@ -139,36 +141,31 @@ ul li {
 
 /* Стилі для секції Our Team */
 .section-team {
-    background-color: #FFFFFF;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-
+    background-color: #f4f4fd;
 }
 
 .title-team {
     color: #2e2f42;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .title-team1 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04px;
     color: #2e2f42;
+    text-align: center;
 }
 
 .paragraph-team {
-    color: #434455;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-    font-size: 16px;
+    letter-spacing: 0.32px;
+    text-align: center;
 }
 
 
@@ -190,12 +187,23 @@ footer {
 /* Стилі для лого у футері */
 footer .logo-web {
     color: #4D5AE5;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 15px;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        font-family: "Raleway", sans-serif;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        font-style: normal;
 }
 footer .logo-studio {
     color: #fff;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        font-family: "Raleway", sans-serif;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        font-style: normal;
 }
 
 /* Стилі для абзацу у футері */
