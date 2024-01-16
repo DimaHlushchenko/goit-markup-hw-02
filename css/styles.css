@@ -45,23 +45,31 @@ nav ul {
     display: flex;
 }
 
-.address ul {
-    list-style: none;
-    padding: 0;
+.Contacts {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.address li {
-    margin-bottom: 10px;
-}
 header .logo-web {
     color: #4D5AE5;
     text-decoration: none;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
+    line-height: 1.17;
+    font-family: "Raleway";
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 header .logo-studio {
     color: #2E2F42;
+    font-family: "Raleway";
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 main {
@@ -75,6 +83,23 @@ main {
     
 }
 
+.one-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
 h1,
 h2,
 h3 {
@@ -98,9 +123,23 @@ ul li {
     margin-bottom: 20px;
 }
 
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.title-p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 /* Стилі для секції Our Team */
 .section-team {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -110,12 +149,26 @@ ul li {
 
 .title-team {
     color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.title-team1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .paragraph-team {
     color: #434455;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    font-size: 16px;
 }
 
 
