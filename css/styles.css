@@ -1,0 +1,212 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Основний шрифт */
+    color: #434455;
+        color: #434455;
+        background-color: #FFFFFF;
+    /* Основний колір тексту */
+    line-height: 1.8;
+    /* Висота рядка */
+}
+
+header {
+    background-color: #ffffff;
+    /* Колір фону хедера */
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.Contacts {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+header .logo-web {
+    color: #4D5AE5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+header .logo-studio {
+    color: #2E2F42;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        font-family: "Raleway", sans-serif;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        font-style: normal;
+}
+
+main {
+    padding: 0;
+}
+
+.section-main {
+    margin-bottom: 80px;
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    
+}
+
+.one-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+h1,
+h2,
+h3 {
+    font-family: 'Raleway', sans-serif;
+    /* Шрифт для заголовків */
+}
+
+button {
+    background-color: #4285f4;
+    /* Колір кнопки */
+    color: #fff;
+    /* Колір тексту на кнопці */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Стилі для секції Features */
+ul li {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.title-p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Стилі для секції Our Team */
+.section-team {
+    background-color: #f4f4fd;
+}
+
+.title-team {
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.title-team1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.04px;
+    color: #2e2f42;
+    text-align: center;
+}
+
+.paragraph-team {
+    letter-spacing: 0.32px;
+    text-align: center;
+}
+
+
+/* Стилі для секції Our Portfolio */
+ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+/* Стилі для футера */
+footer {
+    background-color: #2E2F42;
+    /* Колір фону футера */
+    color: #fff;
+    /* Колір тексту у футері */
+    padding: 20px;
+}
+
+/* Стилі для лого у футері */
+footer .logo-web {
+    color: #4D5AE5;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        font-family: "Raleway", sans-serif;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        font-style: normal;
+}
+footer .logo-studio {
+    color: #fff;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        font-family: "Raleway", sans-serif;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        font-style: normal;
+}
+
+/* Стилі для абзацу у футері */
+footer p {
+    margin-top: 10px;
+}
